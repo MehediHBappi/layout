@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <style> 
+  .link-box{
+    display: flex;
+justify-content: space-between;
+
+  }
+    .link {
+      text-decoration: dashed;
+      color: rgb(209, 72, 113);
+      border: none;
+      background-color: gold;
+      padding: 5px;
+    }
+
+    .login-tol {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      gap: 15px;
+
+
+    }
+
+    .login-form input {
+      font-size: 1.5em;
+      padding: 5px 10px;
+    }
+
+    .login-form input[type='submit'] {
+      background-color: rgb(196, 183, 4);
+      font-size: 1.5em;
+      font-weight: 700;
+      color: aliceblue;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="link-box">
+    <nav class="link">
+      <a href="">Home</a>
+      <a href="">contact Us</a>
+     
+    </nav> 
+    <nav class="link-2">
+      <a href="">Profil</a>
+      <a href="">Google</a>
+    </nav>
+  </header>
+  <section class="login-tol">
+
+    <form class="login-form">
+      <h3>
+        plz Enter your Email and login
+      </h3>
+      <input type="email" placeholder="Enter your email" required>
+      <input type="password" placeholder="Enter your email" required>
+      <input type="submit" value="submit">
+    </form>
+  </section>
+
+</body>
+
+</html>
